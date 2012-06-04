@@ -8,7 +8,7 @@ $environment = new Environment(Environment::DEVELOPMENT);
 //$environment = new Environment(Environment::STAGE);
 //$environment = new Environment(Environment::TEST);
 
-$yii=dirname(__FILE__).'/../framework/yii.php';
+$yii=dirname(__FILE__).'/../../../www-protected/yii/framework/yii.php';
 
 defined('YII_DEBUG') or define('YII_DEBUG',$environment->getDebug());
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL', $environment->getTraceLevel());
